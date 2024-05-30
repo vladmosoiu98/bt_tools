@@ -6,7 +6,7 @@ from bt_view.bt_view import COLORS_PER_RETURN_STATE, draw_pygraphviz
 from btlib.bts import fbl_to_networkx
 from btlib.common import NODE_STATE
 
-from nav2_msgs.msg import BehaviorTreeLog, BehaviorTreeStatusChange
+from modulab_mission_msgs.msg import BehaviorTreeLog, BehaviorTreeStatusChange
 
 from rcl_interfaces.msg import ParameterDescriptor
 
